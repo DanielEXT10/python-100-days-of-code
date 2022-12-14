@@ -14,7 +14,7 @@ while True:
     
     tip_percentage = float(input('what percentage of the total bill do you want the tip to be: '))
     if tip_percentage > 0 and tip_percentage < 100:
-        break
+        break 
     else:
         print('Insert a valid tip percentage')
 
